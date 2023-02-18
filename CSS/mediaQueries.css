@@ -1,0 +1,193 @@
+/* ==========Media Queries========== */
+@media(max-width:768px){
+/* ==========Bottom Header Section========== */
+.nav_menu{
+    position: fixed;
+    left: -100%;
+    top:170px;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+.nav_menu.active{
+    left: 0;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+    box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+}
+
+.scale_card:nth-of-type(1){
+    animation-delay: 0.8s !important;
+}
+.scale_card:nth-of-type(2){
+    animation-delay: 0.8s !important;
+}
+.scale_card:nth-of-type(3){
+    animation-delay: 0.8s !important;
+}
+.scale_card:nth-of-type(4){
+    animation-delay: 0.8s !important;
+}
+.scale_card:nth-of-type(5){
+    animation-delay: 0.8s !important;
+}
+.scale_card:nth-of-type(6){
+    animation-delay: 0.8s !important;
+}
+.scale_card:nth-of-type(7){
+    animation-delay: 0.8s !important;
+}
+.scale_card:nth-of-type(8){
+    animation-delay: 0.8s !important;
+}
+.scale_card:nth-of-type(9){
+    animation-delay: 0.8s !important;
+}
+
+
+
+
+/* ==========Bottom Header Section========== */
+/* ==========Main========== */
+.scale_card h4{
+    font-size: 2rem;
+}
+.scale_card div > a{
+    font-size: 1.6rem !important;
+}
+.scale_card div > span{
+    font-size: 1.3rem !important;
+}
+.mob{
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border-bottom: 3px solid rgb(0,195,214);
+    border-width: 90%;
+}
+.mob h4{
+    width: 45%;
+    text-align: center;
+    font-size: 2rem;
+    text-align: end;
+}
+.mob img{
+    width: 50% !important;
+    margin-bottom: 20px;
+}
+.mob p{
+    display: none;
+}
+
+.mob div > *{
+    display: none !important;
+}
+/* ==========Main========== */
+}
+@media (min-width:768px) and (max-width:991px){
+/* ==========Bottom Header Section========== */
+.nav_menu{
+    position: fixed;
+    left: -100%;
+    top:172px;
+    width: 40%;
+    text-align: center;
+    transition: 0.3s;
+}
+.nav_menu.active{
+    left: 0;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(163,163,163,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(163,163,163,1);
+    box-shadow: 10px 10px 5px 0px rgba(163,163,163,1);
+}
+/* ==========Bottom Header Section========== */
+}
+@media(max-width:991px){
+    /* ==========Bottom Header Section========== */
+    header{
+        box-shadow:none !important;
+    } 
+    .nav_menu{
+        background-color:white
+    }
+    .nav_item{
+        line-height: 3rem;
+        border-bottom: 1px solid grey;
+        padding: 0.6rem 0;
+    }
+    .nav_item:last-child{
+        margin-top: 1.6rem;
+    }
+    .nav_item::after{
+        all:unset !important;
+    }
+    .nav_link > span{
+        font-weight: 900;
+    }
+    .colored{
+        border-bottom:none;
+    }
+    .info_nav_link_btn{
+        font-size:1.4rem;
+        font-weight: 500;
+        padding: 0.8rem;
+        border-radius:6px;
+        background-color:rgb(0,195,214);
+        list-style: none;
+    }
+    .bottom_header_section{
+        margin-top: 3px;
+        height: 85px;
+        background-color:rgb(7,7,32);
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(9.2px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-9.2px) rotate(-45deg);
+    }
+    /* ==========Bottom Header Section========== */
+    /* ==========Main========== */
+    .main_header{
+        font-size: 3rem !important;
+    }
+    .main_card{
+        margin-left: 0;
+    }
+    .main_card_section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+    }
+    .main_card div h2{
+        text-align: center;
+
+    }
+    
+    .members_gender_card,.members_number_card{
+        width: 49% !important;
+        border-radius:7px;
+        margin-top: 1rem;
+    }
+
+    .scale_top:nth-of-type(1){
+        animation-delay: 0.8s !important;
+    }
+    .scale_top:nth-of-type(2){
+        animation-delay: 1.6s !important;
+    }
+    .scale_top:nth-of-type(3){
+        animation-delay: 2.4s !important;
+    }
+    
+    /* ==========Main========== */
+}
+
+
+/* ==========Media Queries========== */

@@ -1,0 +1,345 @@
+@import url('./mediaQueries.css');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* ==========Header========== */
+
+header{
+    width: 100%;
+    height: 170px;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+    box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+}
+.wrapper{
+    position: fixed;
+    z-index: 1000;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+}
+/* ==========Top Header Section========== */
+.top_header_section{
+    background-color: rgb(7,7,32);
+    height: 85px;
+    display: flex;
+    align-items:center
+}
+.share_and_info_links{
+    display: flex;
+    align-items:center;
+    height: 30px;
+}
+.share_link{
+    background-color:rgb(0,195,214);
+    height: inherit;
+    width: 30px;
+    border-radius:50%;
+    padding: 1.5px 0 0 2px;
+}
+.share_link img{
+    height: 75%;
+    width: 75%;
+}
+.info_link_btn{
+    height: inherit;
+    background-color:rgb(0,195,214);
+    text-decoration: none;
+    color:rgb(7,7,32);
+    border-radius:2px; 
+    display: flex;
+    align-items:center;
+    justify-content:center; 
+    font-size: 1.2rem;  
+}
+.logo_10k{
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+}
+.weizmann_logo{
+    display: flex;
+    justify-content: center;
+    min-height: 55px;
+}
+/* ==========Top Header Section========== */
+/* ==========Bottom Header Section========== */
+.bottom_header_section{
+   height: 85px;
+}
+.navbar{
+    height: 85px;
+}
+.nav_menu{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_item{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    line-height: 2;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav_item:after {
+    display: block;
+    content: "";
+    background-color: black;
+    height: 7px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.nav_item:hover:after,
+.nav_item:focus:after {
+    width: 100%;
+}
+
+.nav_link{
+    color: rgb(7,7,32);
+    text-decoration: none;
+}
+.nav_link:hover{
+    color:black;
+}
+
+.colored > a{
+    color: rgb(16,181,197);
+}
+.hamburger{
+    cursor: pointer;
+    background-color:white;
+    border-radius:50%;
+    height: 80%;
+    width: auto;
+    padding-top: 10px;
+    
+}
+.bar{
+    display: block;
+    width: 30px;
+    height: 3.5px;
+    margin: 6px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:rgb(7,7,32);
+}
+/* ==========Bottom Header Section========== */
+/* ==========Header========== */
+
+/* ==========Main========== */
+
+main{
+    width: 100%;
+    text-align: center;
+}
+
+.main_header{
+    font-weight: 900;
+    text-align: center;
+    font-size: 5.3rem;
+    margin: 4rem 0 3rem;
+}
+
+.main_card{
+    background-color:rgb(0,195,214);
+    height:250px;
+    border-radius:7px;
+    font-weight: 400;
+}
+
+.main_card_section{
+    display: flex;
+    align-items:center;
+    width: 50%;
+    justify-content: center;
+}
+.main_card_section div{
+    line-height: 0%;
+    text-align: end;
+}
+
+
+
+.main_card_section > img{
+    width: 60px;
+    height: 60px;
+}
+
+.members_gender_card,.members_number_card{
+    width: 24%;
+    border-radius:7px;
+}
+
+
+.members_gender_card{
+    background-color:rgb(0,195,214);
+    display: flex;
+    justify-content: center;
+}
+
+.members_gender_card div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    line-height: 0;
+}
+
+.members_gender_card img{
+    width: 30%;
+    height: 50%;
+}
+
+.members_number_card{
+    background-color:rgb(7,7,32);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 25px;
+    align-items:center;
+}
+
+.members_circular_progress{
+   position: relative;
+   width: 180px;
+   height: 180px;
+   border-radius:50%;
+   background:conic-gradient(white 3.5deg, rgb(7,7,32) 0deg);
+   display: flex;
+   align-items:center;
+   justify-content: center;
+}
+
+.members_circular_progress::before{
+  content:"";
+  position: absolute;
+  height: 174px;
+  width: 174px;
+  background-color:rgb(0,195,214);
+  border-radius:50%
+}
+
+.progress_value_block{
+    position: relative;
+}
+
+.progress_value > h1{
+    font-weight: 200 !important;
+}
+
+.scale_card{
+    margin-top: 5rem;
+    
+}
+
+.scale_card p, h4{
+   text-align: right;
+}
+
+.scale_card > img{
+    width: 100%;
+    border-radius:3px;
+}
+
+.scale_card  div{
+    border-bottom: 2px solid rgb(0,195,214);
+    display: flex;
+    justify-content: space-between;
+}
+
+.scale_card a{
+    text-decoration: none;
+    border-bottom:6px solid rgb(0,195,214);
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.scale_card span{
+   display:flex;
+   align-items:center;
+}
+
+
+
+.scale-up-ver-center {
+    opacity: 1 !important;
+	animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.scale_top:nth-of-type(3){
+    animation-delay: 0.8s;
+}
+.scale_top:nth-of-type(2){
+    animation-delay: 1.6s;
+}
+.scale_top:nth-of-type(1){
+    animation-delay: 2.4s;
+}
+
+.scale_card{
+    opacity: 0;
+}
+
+.scale_card:nth-of-type(3){
+    animation-delay: 0.8s;
+}
+.scale_card:nth-of-type(2){
+    animation-delay: 1.6s;
+}
+.scale_card:nth-of-type(1){
+    animation-delay: 2.4s;
+}
+.scale_card:nth-of-type(6){
+    animation-delay: 0.8s;
+}
+.scale_card:nth-of-type(5){
+    animation-delay: 1.6s;
+}
+.scale_card:nth-of-type(4){
+    animation-delay: 2.4s;
+}
+.scale_card:nth-of-type(9){
+    animation-delay: 0.8s;
+}
+.scale_card:nth-of-type(8){
+    animation-delay: 1.6s;
+}
+.scale_card:nth-of-type(7){
+    animation-delay: 2.4s;
+}
+
+
+@keyframes scale-up-ver-center {
+    0% {
+      transform: scaleY(0);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
+
+
+
+
+/* ==========Main========== */
+
