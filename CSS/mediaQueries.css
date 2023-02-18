@@ -1,6 +1,12 @@
 /* ==========Media Queries========== */
+@media(max-width:576){
+    main{
+        width: 95%;
+    }
+}
 @media(max-width:768px){
 /* ==========Bottom Header Section========== */
+
 .nav_menu{
     position: fixed;
     left: -100%;
@@ -14,6 +20,25 @@
     -webkit-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
     -moz-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
     box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+}
+
+.members_circular_progress{
+    
+    width: 155px !important;
+    height: 155px !important;
+   
+   
+ }
+ 
+ .members_circular_progress::before{
+ 
+   height: 150px !important;
+   width: 150px !important;
+   
+ }
+
+.scale_card{
+    opacity: 0;
 }
 
 .scale_card:nth-of-type(1){
