@@ -242,7 +242,7 @@ main{
 }
 
 .progress_value > h1{
-    font-weight: 200 !important;
+    font-weight: bold !important;
 }
 
 .scale_card{
@@ -337,6 +337,12 @@ main{
     }
   }
   
+  .bottom_main_btn{
+    height: 30px;
+    background-color:rgb(0,195,214);
+    margin-bottom: 40px;
+    border-radius:5px;
+  }
 
 
 

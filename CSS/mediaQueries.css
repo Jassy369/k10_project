@@ -1,18 +1,5 @@
 /* ==========Media Queries========== */
-@media(max-width:576){
-    main{
-        width: 95%;
-    }
-    .members_circular_progress{
-        width: 120px !important;
-        height: 120px !important;
-     }
-     
-     .members_circular_progress::before{
-       height: 115px !important;
-       width: 115px !important;
-     }
-}
+
 @media(max-width:768px){
 /* ==========Bottom Header Section========== */
 
@@ -32,17 +19,17 @@
 }
 
 .members_circular_progress{
-    
-    width: 155px !important;
-    height: 155px !important;
+    line-height: 1;
+    width: 120px !important;
+    height: 120px !important;
    
    
  }
  
  .members_circular_progress::before{
  
-   height: 150px !important;
-   width: 150px !important;
+   height: 115px !important;
+   width: 115px !important;
    
  }
 
@@ -87,7 +74,7 @@
     font-size: 2rem;
 }
 .scale_card div > a{
-    font-size: 1.6rem !important;
+    font-size: 1.2rem !important;
 }
 .scale_card div > span{
     font-size: 1.3rem !important;
@@ -103,7 +90,7 @@
 .mob h4{
     width: 45%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: end;
 }
 .mob img{
