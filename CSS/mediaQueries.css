@@ -3,6 +3,15 @@
     main{
         width: 95%;
     }
+    .members_circular_progress{
+        width: 120px !important;
+        height: 120px !important;
+     }
+     
+     .members_circular_progress::before{
+       height: 115px !important;
+       width: 115px !important;
+     }
 }
 @media(max-width:768px){
 /* ==========Bottom Header Section========== */
