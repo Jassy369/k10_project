@@ -34,33 +34,60 @@
    
  }
 
+ 
+/* ===========================================Popup menu================================= */
+
+ .popup_menu{
+    width: 80%;
+    max-width: 400px;
+ }
+
+ .popup_menu input{
+    width: 80%;
+ }
+
+ .login_btn{
+    padding: 2% 6%;
+}
+.pop_up_content{
+    width: 90%;
+    padding: 0.5rem 0;
+}
+
+.pop_up_content > *{
+    margin: 0.5rem 0;
+}
+
+
+/* ===========================================Popup menu================================= */
+
 .scale_card{
     opacity: 0;
 }
 
 .scale_card:nth-of-type(1){
-    animation-delay: 0.8s !important;
+    animation-delay: 0.4s !important;
 }
 .scale_card:nth-of-type(2){
-    animation-delay: 0.8s !important;
+    animation-delay: 0.4s !important;
 }
 .scale_card:nth-of-type(3){
-    animation-delay: 0.8s !important;
+    animation-delay: 0.4s !important;
 }
 .scale_card:nth-of-type(4){
-    animation-delay: 0.8s !important;
+    animation-delay: 0.4s !important;
 }
 .scale_card:nth-of-type(5){
-    animation-delay: 0.8s !important;
+    animation-delay: 0.4s !important;
 }
 .scale_card:nth-of-type(6){
-    animation-delay: 0.8s !important;
+    animation-delay: 0.4s !important;
 }
 .scale_card:nth-of-type(7){
-    animation-delay: 0.8s !important;
+    animation-delay: 0.4s !important;
 }
 .scale_card:nth-of-type(8){
-    animation-delay: 0.8s !important;
+    animation-delay: 0.4s !important;
 }
 .scale_card:nth-of-type(9){
     animation-delay: 0.8s !important;
@@ -159,6 +186,34 @@
 /* ====================================================================== */
 }
 @media (min-width:768px) and (max-width:991px){
+
+/* ===========================================Popup menu================================= */
+.popup_menu{
+    width: 55%;
+}
+
+.pop_up_content{
+    width: 80%;
+    padding: 20px 0;
+
+}
+
+.pop_up_content input{
+    width: 90%;
+}
+.login_btn{
+    padding: 2% 6%;
+}
+
+.pop_up_content{
+    padding: 0.8rem 0;
+}
+
+.pop_up_content > *{
+    margin: 0.8rem 0;
+}
+
+/* ===========================================Popup menu================================= */
 /* ==========Bottom Header Section========== */
 /* ====================================================================== */
 .nav_menu{
@@ -176,6 +231,7 @@
     box-shadow: 10px 10px 5px 0px rgba(163,163,163,1);
 }
 /* ==========Bottom Header Section========== */
+
 /* ==========Footer========== */
 /* ==========Top Footer Section========= */
 .top_footer_section_row{
@@ -275,13 +331,14 @@
     }
 
     .scale_top:nth-of-type(1){
-        animation-delay: 0.8s !important;
+        animation-delay: 0.4s !important;
     }
     .scale_top:nth-of-type(2){
-        animation-delay: 1.6s !important;
+        order: 1;
+        animation-delay: 0.8s !important;
     }
     .scale_top:nth-of-type(3){
-        animation-delay: 2.4s !important;
+        animation-delay: 1.6s !important;
     }
     
     /* ==========Main========== */
@@ -325,6 +382,31 @@
     /* ==========Footer========== */
 /* ====================================================================== */
 }
-
+@media (min-width:992px){
+    .popup_menu{
+        width: 40%;
+    }
+    
+    .pop_up_content{
+        width: 80%;
+        padding: 20px 0;
+    
+    }
+    
+    .pop_up_content input{
+        width: 90%;
+    }
+    .login_btn{
+        padding: 2% 6%;
+    }
+    
+    .pop_up_content{
+        padding: 0.8rem 0;
+    }
+    
+    .pop_up_content > *{
+        margin: 0.8rem 0;
+    }
+}
 
 /* ==========Media Queries========== */

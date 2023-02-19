@@ -22,7 +22,7 @@ function onEntry(entry){
 function onAnchor(entry){
    
         if(entry.isIntersecting){
-            change.target.classList.add(".anchor_btn_animation");
+            change.target.classList.add(".anchor_animation");
         
     };
 }
@@ -91,5 +91,15 @@ let progress = setInterval(() => {
     },timeOut)
 
 
+//=====================================================================================//
 
+const popup = document.querySelector(".popup_menu");
+
+function openPopup() {
+    popup.classList.add("open_popup")
+}
+
+function closePopup(){
+    popup.classList.remove("open_popup");
+}
 

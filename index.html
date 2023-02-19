@@ -10,6 +10,7 @@
 </head>
 <body>
     <!-- Author Jason Ragvane -->
+   
     <header id="top">   
         <!-- Top Header Section -->
         <div class="wrapper">
@@ -74,6 +75,7 @@
         </div>
         <!-- Bottom Header Section -->
     </header>
+   
     <main>
         <h1 class="main_header">10K מאמרי</h1>
         <div class="container px-4">
@@ -132,10 +134,21 @@
                         </div>
                         <p style="color: white;">Lorem, ipsum dolor.</p>
                     </div>
-            
           </div>
-          <div class="row px-lg justify-content space-between">
 
+          <div class="popup_menu">
+            <div class="popup-header"><button class="btn_close" onclick="closePopup()">x</button></div>
+            <div class="pop_up_content">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Password">
+                <button class="login_btn" onclick="closePopup()">Sign up</button>
+            </div>
+            
+        </div>
+
+          <div class="row px-lg justify-content space-between">
             <div class="ps-lg-1 col-12 col-lg-4 scale_card">
                 <img src="./Images/main/main_content_image.png" alt="">
                 <h4>עדכון חודשי</h4>
@@ -144,7 +157,7 @@
                      veniam voluptatibus id accusantium molestiae delectus
                       nisi velit asperiores sit nemo temporibus quam labore
                        corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 scale_card mob">
                 <img src="./Images/main/main_content_image.png" alt="">
@@ -154,7 +167,7 @@
                      veniam voluptatibus id accusantium molestiae delectus
                       nisi velit asperiores sit nemo temporibus quam labore
                        corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pe-lg-3 scale_card mob">
                 <img src="./Images/main/main_content_image.png" alt="">
@@ -164,7 +177,7 @@
                      veniam voluptatibus id accusantium molestiae delectus
                       nisi velit asperiores sit nemo temporibus quam labore
                        corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 ps-lg-1 scale_card mob">
                 <img src="./Images/main/main_content_image.png" alt="">
@@ -174,7 +187,7 @@
                       veniam voluptatibus id accusantium molestiae delectus
                        nisi velit asperiores sit nemo temporibus quam labore
                         corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 scale_card mob">
                 <img src="./Images/main/main_content_image.png" alt="">
@@ -184,7 +197,7 @@
                      veniam voluptatibus id accusantium molestiae delectus
                       nisi velit asperiores sit nemo temporibus quam labore
                        corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pe-lg-3 scale_card mob">
                 <img src="./Images/main/main_content_image.png" alt="">
@@ -194,7 +207,7 @@
                      veniam voluptatibus id accusantium molestiae delectus
                       nisi velit asperiores sit nemo temporibus quam labore
                        corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <div class="scale_card col-12 col-md-6 col-lg-4 ps-lg-1 mob">
                 <img src="./Images/main/main_content_image.png" alt="">
@@ -204,7 +217,7 @@
                      veniam voluptatibus id accusantium molestiae delectus
                       nisi velit asperiores sit nemo temporibus quam labore
                        corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 scale_card mob">
                 <img src="./Images/main/main_content_image.png" alt="">
@@ -214,7 +227,7 @@
                      veniam voluptatibus id accusantium molestiae delectus
                       nisi velit asperiores sit nemo temporibus quam labore
                        corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 ps-lg-3 scale_card mob mb-4 mb-lg-5">
                 <img src="./Images/main/main_content_image.png" alt="">
@@ -224,7 +237,7 @@
                      veniam voluptatibus id accusantium molestiae delectus
                       nisi velit asperiores sit nemo temporibus quam labore
                        corrupti explicabo.</p>
-                <div><a href="">למאמר המלה</a><span>19/07/2020</span></div>
+                <div><a onclick="openPopup()">למאמר המלה</a><span>19/07/2020</span></div>
             </div>
             <a href="#top" class="d-none d-lg-block anchor_btn">
                 <div class="anchor">
