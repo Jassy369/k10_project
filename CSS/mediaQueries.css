@@ -1,6 +1,7 @@
 /* ==========Media Queries========== */
 
 @media(max-width:768px){
+/* ====================================================================== */
 /* ==========Bottom Header Section========== */
 
 .nav_menu{
@@ -105,9 +106,61 @@
     display: none !important;
 }
 /* ==========Main========== */
+/* ==========Footer========== */
+/* ==========Top Footer Section========= */
+.top_footer_section_row{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+}
+
+.email_input{
+    text-align: center;
+}
+
+.footer_btn{ 
+    margin-top: 15px;
+    padding: 5px 15px;
+}
+/* ==========Top Footer Section========= */
+/* ==========Middle Footer Section========= */
+.middle_footer_section_row{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+}
+    .middle_footer_section_row p {
+       margin-bottom: 0; 
+    }
+    .middle_footer_section_row div{
+        text-align: center;
+        margin: 15px 0;
+
+    }
+    .middle_footer_section_row div img{
+        width: 55%;
+        
+    }
+/* ==========Middle Footer Section========= */
+/* ==========Bottom Footer Section========= */
+    .bottom_footer_section_row{
+        display: flex;
+    }
+
+
+    .bottom_one{order:1;
+        display:flex;
+        margin-bottom: 0;
+    }
+    .bottom_two{order:0}
+    .bottom_three{order:1}
+/* ==========Bottom Footer Section========= */
+/* ==========Footer========== */
+/* ====================================================================== */
 }
 @media (min-width:768px) and (max-width:991px){
 /* ==========Bottom Header Section========== */
+/* ====================================================================== */
 .nav_menu{
     position: fixed;
     left: -100%;
@@ -123,12 +176,36 @@
     box-shadow: 10px 10px 5px 0px rgba(163,163,163,1);
 }
 /* ==========Bottom Header Section========== */
+/* ==========Footer========== */
+/* ==========Top Footer Section========= */
+.top_footer_section_row{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+}
+
+.footer_logo img{
+    width: 100%;
+}
+
+.email_input{
+    text-align: center;
+}
+
+.footer_btn{
+    margin-top: 15px;
+}
+/* ==========Top Footer Section========= */
+
+/* ==========Footer========== */
+/* ====================================================================== */
 }
 @media(max-width:991px){
     /* ==========Bottom Header Section========== */
-    header{
-        box-shadow:none !important;
-    } 
+/* ====================================================================== */
+  .wrapper{
+    box-shadow:none !important;
+  }
     .nav_menu{
         background-color:white
     }
@@ -208,6 +285,45 @@
     }
     
     /* ==========Main========== */
+    /* ==========Footer========== */
+    /* ==========Top Footer Section========= */
+        .top_footer_section_row{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items:center;
+        }
+
+        .email_input{
+            text-align: center;
+        }
+
+        .footer_btn{
+            margin-top: 15px;
+            padding: 6px 10px;
+        }
+        /* ==========Middle Footer Section========= */
+
+        .middle_footer_section_row{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items:center;
+        }
+            .middle_footer_section_row p {
+               margin-bottom: 0; 
+            }
+            .middle_footer_section_row div{
+                text-align: center;
+                margin: 15px 0;
+        
+            }
+            .middle_footer_section_row div img{
+                width: 55%;
+                
+            }
+            /* ==========Middle Footer Section========= */
+        /* ==========Top Footer Section========= */
+    /* ==========Footer========== */
+/* ====================================================================== */
 }
 
 

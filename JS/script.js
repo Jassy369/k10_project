@@ -18,6 +18,15 @@ function onEntry(entry){
     });
 }
 
+
+function onAnchor(entry){
+   
+        if(entry.isIntersecting){
+            change.target.classList.add(".anchor_btn_animation");
+        
+    };
+}
+
 let options = {
     threshold:[0.5]
 };
@@ -25,6 +34,10 @@ let options = {
 let observer = new IntersectionObserver(onEntry, options);
 let elementsTop = document.querySelectorAll(".scale_top");
 let elementsBottom = document.querySelectorAll(".scale_card");
+let anchorBtn = document.querySelector('.anchor');
+let anchorObserver = new IntersectionObserver(onAnchor, options);
+
+anchorObserver.observe(anchorBtn);
 
 for(let elm of elementsTop){
     observer.observe(elm);
