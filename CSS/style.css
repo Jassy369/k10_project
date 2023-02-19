@@ -368,6 +368,10 @@ main{
     transition: opacity 0.8 .5s ease;
 }
 
+.scale_top{
+    opacity: 0;
+}
+
 .scale_top:nth-of-type(3){
     animation-delay: 0.8s;
 }

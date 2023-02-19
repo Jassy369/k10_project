@@ -56,7 +56,7 @@ const circularProgress = document.querySelector(".members_circular_progress"),
       progressValue = document.querySelector(".progress_value");
     let timeOut = 0;
       if (window.innerWidth < 992) {
-        timeOut = 2400;
+        timeOut = 2200;
       }else{
         timeOut = 800;
       }
