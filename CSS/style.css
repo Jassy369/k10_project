@@ -324,6 +324,7 @@ main{
 }
 
 .scale_card{
+    opacity: 0;
     margin-top: 5rem;
     
 }
